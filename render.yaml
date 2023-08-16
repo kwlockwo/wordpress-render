@@ -3,7 +3,7 @@ services:
   name: wordpress
   env: docker
   plan: standard
-  autoDeploy: false
+  autoDeploy: true
   disk:
     name: wordpress
     mountPath: /var/www/html
