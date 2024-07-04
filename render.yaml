@@ -1,6 +1,6 @@
 services:
 - type: web
-  name: wordpress
+  name: wordpress-change
   env: docker
   plan: standard
   autoDeploy: false
