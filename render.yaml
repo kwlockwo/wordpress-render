@@ -38,7 +38,7 @@ services:
   disk:
     name: mysql-wordpress
     mountPath: /var/lib/mysql
-    sizeGB: 20
+    sizeGB: 50
   envVars:
   - key: MYSQL_DATABASE
     value: mysql
